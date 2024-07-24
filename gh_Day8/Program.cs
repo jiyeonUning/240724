@@ -7,7 +7,8 @@
 
     public abstract class Item // = 추상클래스 생성
     {
-        public string Name { get; private set; }
+        public string Name { get; private set; } // get, set : 변수를 쓰고 읽는 방법을 각각 접근제한자로 설정할 수 있는 키워드.
+                                                 // get = 읽기 / set = 쓰기
 
         public Item(string name)
         {
